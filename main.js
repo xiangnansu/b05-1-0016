@@ -882,7 +882,7 @@ var Frame = /*#__PURE__*/function (_Element) {
   }, {
     key: "addEventListener",
     value: function addEventListener(type, handler) {
-      this.domelement.addEventListener(type, handler);
+      this.domelement.addEventListener(type, handler, false);
     }
   }, {
     key: "getComputedStyle",
@@ -1096,8 +1096,6 @@ function _pointerdown(e) {
   }
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
-
-  e.preventDefault();
 }
 
 function _pointermove(e) {
@@ -1151,6 +1149,8 @@ function _pointermove(e) {
   }
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
+
+  e.preventDefault();
 }
 
 function _pointerup(e) {

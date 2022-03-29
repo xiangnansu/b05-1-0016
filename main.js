@@ -1021,8 +1021,6 @@ var PointerEvent = /*#__PURE__*/function () {
 }();
 
 function _click3(e) {
-  e.preventDefault();
-
   var _classStaticPrivateMe = _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _getPointerPosition).call(PointerEvent, e),
       _classStaticPrivateMe2 = _slicedToArray(_classStaticPrivateMe, 2),
       left = _classStaticPrivateMe2[0],

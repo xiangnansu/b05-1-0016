@@ -1096,6 +1096,9 @@ function _pointerdown(e) {
   }
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
+
+  e.stopPropagation();
+  e.preventDefault();
 }
 
 function _pointermove(e) {
@@ -1150,6 +1153,7 @@ function _pointermove(e) {
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
 
+  e.stopPropagation();
   e.preventDefault();
 }
 

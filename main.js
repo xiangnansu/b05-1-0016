@@ -959,6 +959,7 @@ var PointerEvent = /*#__PURE__*/function () {
       frame.addEventListener("pointerdown", _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _pointerdown));
       frame.addEventListener("pointermove", _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _pointermove));
       frame.addEventListener("pointerup", _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _pointerup));
+      frame.addEventListener("touchmove", _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _touchmove));
     }
   }, {
     key: "addEventListener",
@@ -1096,9 +1097,6 @@ function _pointerdown(e) {
   }
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
-
-  e.stopPropagation();
-  e.preventDefault();
 }
 
 function _pointermove(e) {
@@ -1152,9 +1150,6 @@ function _pointermove(e) {
   }
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
-
-  e.stopPropagation();
-  e.preventDefault();
 }
 
 function _pointerup(e) {
@@ -1206,6 +1201,11 @@ function _pointerup(e) {
       }
     }
   }
+}
+
+function _touchmove(e) {
+  e.stopPropagation();
+  e.preventDefault();
 }
 
 function _getListeners(type) {

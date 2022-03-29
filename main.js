@@ -1096,6 +1096,8 @@ function _pointerdown(e) {
   }
 
   _classStaticPrivateFieldSpecSet(PointerEvent, PointerEvent, _hoveringDomelement, topmostDomelement);
+
+  e.preventDefault();
 }
 
 function _pointermove(e) {

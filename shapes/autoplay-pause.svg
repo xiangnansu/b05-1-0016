@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="82"
+   height="82"
+   version="1.1"
+   viewBox="0 0 21.696 21.696"
+   id="svg6"
+   sodipodi:docname="autoplay-pause.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="15.746061"
+     inkscape:cx="51.092144"
+     inkscape:cy="38.708094"
+     inkscape:window-width="3440"
+     inkscape:window-height="1330"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <circle
+     cx="10.848"
+     cy="10.848"
+     r="10.45"
+     fill-opacity="0.5"
+     fill-rule="evenodd"
+     stop-color="#000000"
+     stroke="#000000"
+     stroke-width="0.26458"
+     style="paint-order:stroke fill markers"
+     id="circle2"
+     inkscape:label="圓"
+     sodipodi:insensitive="true" />
+  <path
+     transform="scale(0.26458)"
+     d="m 45.734,21.535 v 4.8672 h 9.8633 v 9.8633 h 4.8672 v -14.73 z m 14.73,24.199 h -4.8672 v 9.8633 h -9.8633 v 4.8672 h 14.73 z m -24.199,14.73 v -4.8672 h -9.8633 v -9.8633 h -4.8672 v 14.73 z M 21.535,36.265 h 4.8672 v -9.8633 h 9.8633 v -4.8672 h -14.73 z"
+     fill="#ffffff"
+     fill-rule="evenodd"
+     stop-color="#000000"
+     stroke="#000000"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     style="display:none;paint-order:normal"
+     id="path4"
+     inkscape:label="全螢幕"
+     sodipodi:insensitive="true" />
+  <g
+     id="g5082"
+     transform="translate(-0.11473525)">
+    <path
+       d="M 8.0521965,16.015569 H 9.6397083 L 9.6399063,5.680432 H 8.0523945 Z"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       stop-color="#000000"
+       stroke="#000000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="stroke-width:0.229276;paint-order:normal"
+       id="path929"
+       inkscape:label="播放"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       d="m 12.285563,16.015569 h 1.587513 l 1.98e-4,-10.335137 h -1.587513 z"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       stop-color="#000000"
+       stroke="#000000"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       style="stroke-width:0.229276;paint-order:normal"
+       id="path5078"
+       inkscape:label="播放"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+</svg>

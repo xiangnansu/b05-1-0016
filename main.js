@@ -1048,8 +1048,6 @@ function _click3(e) {
 }
 
 function _pointerdown(e) {
-  e.preventDefault();
-
   var _classStaticPrivateMe3 = _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _getPointerPosition).call(PointerEvent, e),
       _classStaticPrivateMe4 = _slicedToArray(_classStaticPrivateMe3, 2),
       left = _classStaticPrivateMe4[0],
@@ -1101,8 +1099,6 @@ function _pointerdown(e) {
 }
 
 function _pointermove(e) {
-  e.preventDefault();
-
   var _classStaticPrivateMe5 = _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _getPointerPosition).call(PointerEvent, e),
       _classStaticPrivateMe6 = _slicedToArray(_classStaticPrivateMe5, 2),
       left = _classStaticPrivateMe6[0],
@@ -1156,8 +1152,6 @@ function _pointermove(e) {
 }
 
 function _pointerup(e) {
-  e.preventDefault();
-
   var _classStaticPrivateMe7 = _classStaticPrivateMethodGet(PointerEvent, PointerEvent, _getPointerPosition).call(PointerEvent, e),
       _classStaticPrivateMe8 = _slicedToArray(_classStaticPrivateMe7, 2),
       left = _classStaticPrivateMe8[0],
